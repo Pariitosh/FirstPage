@@ -11,8 +11,8 @@ export function App() {
     },)
 
   return(
-    <Center h='100vh' bg='#272743'>
-      <Paper bg='#535472' h='70vh' w='70vw' radius='15px' >
+    <Center h='100vh' bg='#21213b'>
+      <Paper bg='#2f2f4f' h='70vh' w='70vw' radius='15px' >
         <Flex h='100%'  align='center' justify='center' gap="10%">
           <Flex w='30%' justify='start' direction='column' align='start' h='75%'   gap='2%'>
             <Title order={1}>Help us do more</Title>
