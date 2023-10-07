@@ -14,13 +14,13 @@ export function App() {
     <Center h='100vh' bg='#272743'>
       <Paper bg='#535472' h='70vh' w='70vw' radius='15px' >
         <Flex h='100%'  align='center' justify='center' gap="10%">
-          <Flex w='30%' justify='start' direction='column' align='start' h='70%'   gap='2%'>
+          <Flex w='30%' justify='start' direction='column' align='start' h='75%'   gap='2%'>
             <Title order={1}>Help us do more</Title>
             <Text order={6}>We'll get right to this point: we're asking you to support us. We're a nonprofit that relies on
               support from people like you. if everyone reading this gives $10 monthly, we can thrive for years.
             </Text>
           </Flex>
-          <Flex w='30%' h='70%' direction='column' justify='start' align='start' gap='8%'>
+          <Flex w='30%' h='75%' direction='column' justify='start' align='start' gap='8%'>
             <div>
             <p>Select gift frequency</p>
               <SegmentedControl color='#535472' bg='#272743' radius="xl" size='md' data={['Monthly', 'One Time']} />
