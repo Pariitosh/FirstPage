@@ -4,6 +4,7 @@ import {useEffect, useRef} from "react";
 
 export function App() {
   const inp=useRef()
+  {/* To change the input box color and border color */}
   useEffect(()=>{
     inp.current.style.backgroundColor="#535472"
     inp.current.style.borderColor="#272743d"
@@ -11,9 +12,9 @@ export function App() {
     },)
 
   return(
-    <Center h='100vh' bg='#21213b'>
-      <Paper bg='#2f2f4f' h='70vh' w='70vw' radius='15px' >
-        <Flex h='100%'  align='center' justify='center' gap="10%">
+    <Center h='100vh' bg='#21213b'>        {/* Main box */}
+      <Paper bg='#2f2f4f' h='70vh' w='70vw' radius='15px' >  {/* Inner Box */}
+        <Flex h='100%'  align='center' justify='center' gap="10%">  {/* Inner left and right sections as flex boxes */}
           <Flex w='30%' justify='start' direction='column' align='start' h='75%'   gap='2%'>
             <Title order={1}>Help us do more</Title>
             <Text order={6}>We'll get right to this point: we're asking you to support us. We're a nonprofit that relies on
